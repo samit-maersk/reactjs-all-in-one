@@ -1,8 +1,8 @@
 import React from "react";
 
-const Todo = () => {
-    render(
-        <h1> Todo component</h1>
+const Todo = (props) => {
+    return (
+        <li>{props?.todo?.item}</li>
     )
 }
 export default Todo;
